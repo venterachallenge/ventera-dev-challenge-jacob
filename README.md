@@ -1,8 +1,14 @@
 # Ventera Developer Challenge
 
-I decided to use javascript for my language because I hadn't parsed files with it before
+I decided to use javascript to code in because I hadn't parsed files with it before.
 
 You can run both scripts by running the shell script called "runBoth.sh". To be able to run the script you need execute permissions on the file.
+
+I ran the shell in git bash like this:
+
+```
+./runBoth.sh
+```
 
 To reformat the data I created a file called reformat.js.
 The tricky part of the program was reformatting the order field because it
@@ -12,17 +18,20 @@ split it again and removed some brackets. After doing all this I finally had the
 individual fields and was able to format the information. Then I wrote to a
 file called data-transformed-jacob.
 
-On assumption I made was on the confusion sorrounding the wording of the order
+One assumption I made was on the confusion sorrounding the wording of the order
 field. In the spec it says to name the field "details" but in the data-transformed
 file its called "order" I thought it made more sense to keep it the same as
-before and even with the data-transformed file and called it "order".
+before and the same as data-transformed file and called it "order".
 
-To run it I used my already downloaded node and in the command prompt wrote
+To run it I used my already downloaded Node.js and in the command prompt wrote
 
-  node reformat.js
+```
+node reformat.js
+```
+
 
 I already have some libraries installed but I think both fs and require come with
-basic node and those are the only ones you need.
+basic node package and those are the only ones you need.
 
 
 I wrote the data analysis in the data-analysis file. This one was a bit more straightforward than reformatting. To be able to keep track of all the output I first had to initialize some variables. Finding the hat count is the easiest, just add the quantity of hats bought to the count every time an order includes "hat"
@@ -41,6 +50,8 @@ customer who bought ice in october is outputed.
 
 The program can be run with:
 
-  node data-analysis.js
+```
+node data-analysis.js
+```
 
 and requires the same libraries as the other program. It currently outputs to output.json
