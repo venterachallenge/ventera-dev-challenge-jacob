@@ -2,6 +2,8 @@
 
 I decided to use javascript for my language because I hadn't parsed files with it before
 
+You can run both scripts by running the shell script called "runBoth.sh". To be able to run the script you need execute permissions on the file.
+
 To reformat the data I created a file called reformat.js.
 The tricky part of the program was reformatting the order field because it
 was not classic json data, each order had different fields. To solve this problem
@@ -23,10 +25,22 @@ I already have some libraries installed but I think both fs and require come wit
 basic node and those are the only ones you need.
 
 
-I wrote the data analysis in the data-analysis file
+I wrote the data analysis in the data-analysis file. This one was a bit more straightforward than reformatting. To be able to keep track of all the output I first had to initialize some variables. Finding the hat count is the easiest, just add the quantity of hats bought to the count every time an order includes "hat"
+
+Total Revenue is just as simple add up the revenue for each order, and then add up each transactions revenue to total revenue.
+
+The vendor with the most revenue and the best ice customer are both equally tricky. I created two matched arrays for each one (kind of like a hash) and stored the revenue for each store in the corresponding index location. When I was looping though each transaction I would either push a new vendor/customer to the array or add the correct amount to the correct index with use of a helper function to find the index.
+
+After the transaction loop was done I checked what index had the highest value and found the correct identifier.
 
 assumptions: No two vendors have the same revenue. If they do the first vendor
 is outputed
 
 No two customers bought the same amount of ice in october, if they do the first
 customer who bought ice in october is outputed.
+
+The program can be run with:
+
+  node data-analysis.js
+
+and requires the same libraries as the other program. It currently outputs to output.json

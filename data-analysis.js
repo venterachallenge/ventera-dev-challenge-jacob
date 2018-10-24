@@ -16,18 +16,21 @@ var iceCustomers = [];
 var iceCustomerCount = [];
 var october = false;
 
+//loop through all transactions
 for (var i = 0; i < data.length; i++) {
 
   var transaction = data[i];
 
+  //total revenue for this transaction.
   var transactionRevenue = 0;
 
+  //if the date has a 10 at the beginning it is october
   october = false;
   if (transaction.date.substring(0, 2) == "10") {
     october = true;
   }
 
-
+  //loop through all the orders in the transaction
   for (var j = 0; j < transaction.order.length; j++) {
     var order = transaction.order[j];
 
@@ -36,7 +39,7 @@ for (var i = 0; i < data.length; i++) {
       hatCount += order.quantity;
     }
 
-    //ice check
+    //check if its october and the item is ice then add quantity to correct customer
     if (order.item = "ice" && october) {
       var index = findMatch(iceCustomers, transaction.customerId)
       if (index == -1) {
@@ -62,14 +65,16 @@ for (var i = 0; i < data.length; i++) {
     vendorRevenue[vendorIndex] += transactionRevenue;
   }
 
-
+  //add to total revenue
   totalRevenue += transactionRevenue;
 
 }
 
-console.log(vendors);
+//find the best ice customer of october
 var bestIceCustomer = iceCustomers[findBiggestNumber(iceCustomerCount)]
+//find the vendor with the most revenue
 var bestVendor = vendors[findBiggestNumber(vendorRevenue)]
+//the output
 var output = {
   "TotalRevenue": totalRevenue,
   "BestVendor": bestVendor,
@@ -90,6 +95,8 @@ fs.writeFile(writeFile, JSON.stringify(output, null, ' '),
 
 
 //helper functinos
+
+//find the biggest number in the array and return its index
 function findBiggestNumber(array) {
   var index = 0;
   var max = 0
@@ -103,6 +110,7 @@ function findBiggestNumber(array) {
   return index;
 }
 
+//if a match is found return the index if not return -1
 function findMatch(array, match) {
   for (var x = 0; x < array.length; x++) {
     if (array[x] === match) {
