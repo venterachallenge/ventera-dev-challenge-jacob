@@ -1,5 +1,7 @@
 # Ventera Developer Challenge
 
+This is the work of Jacob Heuman
+
 I decided to use javascript to code in because I hadn't parsed files with it before.
 
 You can run both scripts by running the shell script called "runBoth.sh". To be able to run the script you need execute permissions on the file.
