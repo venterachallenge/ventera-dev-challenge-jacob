@@ -1,5 +1,11 @@
-//This is the file that will reformat the data of data.json and put it in a new file
-//called data-transformed-jacob.json
+/**
+ * Author: Jacob Heuman
+ *
+ * This is the file that will reformat the data of data.json and put it in a new file
+ * called data-transformed-jacob.json
+ */
+
+
 
 
 //change these two variable to change what to read and write to

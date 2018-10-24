@@ -1,4 +1,9 @@
-//this is the file that will analyze the reformated data
+/**
+ * Author: Jacob Heuman
+ *
+ * This is the file that will analyze the reformated data
+ */
+
 
 //change these two variable to change what to read and write to
 var readFile = "./data-transformed.json"
