@@ -25,7 +25,7 @@ field. In the spec it says to name the field "details" but in the data-transform
 file its called "order" I thought it made more sense to keep it the same as
 before and the same as data-transformed file and called it "order".
 
-To run it I used my already downloaded Node.js and in the command prompt wrote
+To run it I used my already downloaded Node.js (v8.11.3) and in the command prompt wrote
 
 ```
 node reformat.js
