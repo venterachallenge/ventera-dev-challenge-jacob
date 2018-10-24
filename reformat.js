@@ -1,7 +1,11 @@
 //This is the file that will reformat the data of data.json and put it in a new file
 //called data-transformed-jacob.json
 
-var original = require('./data.json');
+
+//change these two variable to change what to read and write to
+var readFile = "./data.json"
+var writeFile = "./data-transformed-jacob.json"
+var original = require(readFile);
 var fs = require('fs');
 
 
@@ -58,11 +62,11 @@ for (var i = 0; i < original.length; i++) {
   newFormat.push(reformat);
 }
 
-fs.writeFile("./data-transformed-jacob", JSON.stringify(newFormat, null, ' '),
+fs.writeFile(writeFile, JSON.stringify(newFormat, null, ' '),
   function(err) {
     if (err) {
       return console.log(err);
     }
 
-    console.log("The file was saved!");
+    console.log("The file was saved to " + writeFile);
   });

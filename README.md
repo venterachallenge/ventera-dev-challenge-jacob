@@ -21,3 +21,12 @@ To run it I used my already downloaded node and in the command prompt wrote
 
 I already have some libraries installed but I think both fs and require come with
 basic node and those are the only ones you need.
+
+
+I wrote the data analysis in the data-analysis file
+
+assumptions: No two vendors have the same revenue. If they do the first vendor
+is outputed
+
+No two customers bought the same amount of ice in october, if they do the first
+customer who bought ice in october is outputed.
