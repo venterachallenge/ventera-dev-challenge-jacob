@@ -50,8 +50,9 @@ for (var i = 0; i < original.length; i++) {
   var reformat = {
     "id": transaction.id,
     "vendor": transaction.vendor,
+    "date": transaction.date,
     "customerId": customer.id,
-    "details": orders
+    "order": orders
   }
 
   newFormat.push(reformat);

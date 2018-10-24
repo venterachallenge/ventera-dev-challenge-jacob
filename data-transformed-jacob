@@ -2,8 +2,9 @@
  {
   "id": 1,
   "vendor": "acme",
+  "date": "03/03/2017",
   "customerId": "8baa6dea-cc70-4748-9b27-b174e70e4b66",
-  "details": [
+  "order": [
    {
     "item": "hat",
     "quantity": 14,
@@ -33,8 +34,9 @@
  {
   "id": 2,
   "vendor": "acme",
+  "date": "08/23/2017",
   "customerId": "d2584a20-7490-499a-83be-d7cea4a0e260",
-  "details": [
+  "order": [
    {
     "item": "cake",
     "quantity": 8,
@@ -58,8 +60,9 @@
  {
   "id": 3,
   "vendor": "fred's party supplies",
+  "date": "02/04/2017",
   "customerId": "9a1c9545-2612-43c3-a3a3-ea7cb5c5e9d1",
-  "details": [
+  "order": [
    {
     "item": "clown",
     "quantity": 17,
@@ -71,8 +74,9 @@
  {
   "id": 4,
   "vendor": "acme",
+  "date": "12/11/2017",
   "customerId": "c4d3848d-1eba-47b6-90ce-cbc1228158e5",
-  "details": [
+  "order": [
    {
     "item": "bouncy house",
     "quantity": 1,
@@ -84,8 +88,9 @@
  {
   "id": 5,
   "vendor": "fred's party supplies",
+  "date": "03/23/2017",
   "customerId": "e1b8f4a5-b0d1-4a27-b7b2-40c2fe9f1063",
-  "details": [
+  "order": [
    {
     "item": "cake",
     "quantity": 18,
@@ -127,8 +132,9 @@
  {
   "id": 6,
   "vendor": "acme",
+  "date": "10/06/2017",
   "customerId": "d7aa81e3-2991-474b-87b8-85ce12a7d3ea",
-  "details": [
+  "order": [
    {
     "item": "clown",
     "quantity": 4,
@@ -164,8 +170,9 @@
  {
   "id": 7,
   "vendor": "acme",
+  "date": "10/26/2017",
   "customerId": "db55fd58-8407-4cc1-acb2-e22ca955b7cc",
-  "details": [
+  "order": [
    {
     "item": "candy",
     "quantity": 11,
@@ -195,8 +202,9 @@
  {
   "id": 8,
   "vendor": "acme",
+  "date": "04/21/2017",
   "customerId": "f4249d12-77bc-4534-a475-938796edf8b8",
-  "details": [
+  "order": [
    {
     "item": "ice",
     "quantity": 8,
@@ -220,8 +228,9 @@
  {
   "id": 9,
   "vendor": "fred's party supplies",
+  "date": "02/28/2017",
   "customerId": "9c79ed1b-1a08-4582-a7a8-ca0991771229",
-  "details": [
+  "order": [
    {
     "item": "candy",
     "quantity": 3,
@@ -233,8 +242,9 @@
  {
   "id": 10,
   "vendor": "acme",
+  "date": "09/06/2017",
   "customerId": "fad02154-7547-43ab-a1c8-5a2777be2904",
-  "details": [
+  "order": [
    {
     "item": "punch",
     "quantity": 2,
@@ -246,8 +256,9 @@
  {
   "id": 11,
   "vendor": "partyco",
+  "date": "04/28/2017",
   "customerId": "a3ce3bff-5a99-4fab-a321-f6519241daef",
-  "details": [
+  "order": [
    {
     "item": "clown",
     "quantity": 14,
@@ -259,8 +270,9 @@
  {
   "id": 12,
   "vendor": "fred's party supplies",
+  "date": "02/19/2017",
   "customerId": "1825b50c-78cd-498f-9bb2-90ac3e3972ea",
-  "details": [
+  "order": [
    {
     "item": "ice",
     "quantity": 9,
@@ -272,8 +284,9 @@
  {
   "id": 13,
   "vendor": "partyco",
+  "date": "09/13/2017",
   "customerId": "9a8c3fed-73ff-43d6-8a7a-d83c0c0fa815",
-  "details": [
+  "order": [
    {
     "item": "candy",
     "quantity": 20,
@@ -303,8 +316,9 @@
  {
   "id": 14,
   "vendor": "acme",
+  "date": "12/13/2017",
   "customerId": "46ff91d8-caf4-4f76-9f93-a639ab319179",
-  "details": [
+  "order": [
    {
     "item": "clown",
     "quantity": 11,
@@ -334,8 +348,9 @@
  {
   "id": 15,
   "vendor": "partyco",
+  "date": "05/26/2017",
   "customerId": "56d560c2-4ca4-4c5e-a7f9-daeb64f40c94",
-  "details": [
+  "order": [
    {
     "item": "cake",
     "quantity": 3,
@@ -377,8 +392,9 @@
  {
   "id": 16,
   "vendor": "partyco",
+  "date": "04/18/2017",
   "customerId": "84578a38-cd02-4496-b393-03d0970fad22",
-  "details": [
+  "order": [
    {
     "item": "ice",
     "quantity": 15,
@@ -396,8 +412,9 @@
  {
   "id": 17,
   "vendor": "acme",
+  "date": "05/02/2017",
   "customerId": "bb79894f-5b3e-4b9f-8d16-1ea4d35a11af",
-  "details": [
+  "order": [
    {
     "item": "cake",
     "quantity": 4,
@@ -415,8 +432,9 @@
  {
   "id": 18,
   "vendor": "fred's party supplies",
+  "date": "11/03/2017",
   "customerId": "9b86d2b4-cb1e-4efd-b4a9-ff2fca70b9e0",
-  "details": [
+  "order": [
    {
     "item": "cake",
     "quantity": 5,
@@ -428,8 +446,9 @@
  {
   "id": 19,
   "vendor": "fred's party supplies",
+  "date": "07/24/2017",
   "customerId": "141d0110-69d0-4149-bb33-becd6824287b",
-  "details": [
+  "order": [
    {
     "item": "bouncy house",
     "quantity": 2,
@@ -453,8 +472,9 @@
  {
   "id": 20,
   "vendor": "acme",
+  "date": "03/27/2017",
   "customerId": "98fbd8de-33fa-481a-a506-3f2c8ace8c3e",
-  "details": [
+  "order": [
    {
     "item": "cake",
     "quantity": 2,
@@ -478,8 +498,9 @@
  {
   "id": 21,
   "vendor": "partyco",
+  "date": "01/13/2017",
   "customerId": "fef203f2-cdac-46ac-9cf5-293feadd8a95",
-  "details": [
+  "order": [
    {
     "item": "candy",
     "quantity": 2,
@@ -515,8 +536,9 @@
  {
   "id": 22,
   "vendor": "partyco",
+  "date": "08/03/2017",
   "customerId": "b4f0be83-e848-4729-b7dd-07de5dc59656",
-  "details": [
+  "order": [
    {
     "item": "clown",
     "quantity": 20,
@@ -546,8 +568,9 @@
  {
   "id": 23,
   "vendor": "partyco",
+  "date": "12/04/2017",
   "customerId": "4ce3068f-7e01-47f2-98cb-723c27c2710b",
-  "details": [
+  "order": [
    {
     "item": "bouncy house",
     "quantity": 12,
@@ -571,8 +594,9 @@
  {
   "id": 24,
   "vendor": "acme",
+  "date": "08/26/2017",
   "customerId": "1404d08f-47d7-484a-8128-46e2ed41bfb2",
-  "details": [
+  "order": [
    {
     "item": "bouncy house",
     "quantity": 20,
@@ -602,8 +626,9 @@
  {
   "id": 25,
   "vendor": "partyco",
+  "date": "02/11/2017",
   "customerId": "126f12cd-f673-466a-80bf-8ef316dee6aa",
-  "details": [
+  "order": [
    {
     "item": "punch",
     "quantity": 15,
@@ -615,8 +640,9 @@
  {
   "id": 26,
   "vendor": "acme",
+  "date": "06/25/2017",
   "customerId": "b8d10171-3bb8-44be-8671-75fba7f18cb9",
-  "details": [
+  "order": [
    {
     "item": "cake",
     "quantity": 20,
@@ -646,8 +672,9 @@
  {
   "id": 27,
   "vendor": "acme",
+  "date": "02/26/2017",
   "customerId": "e4b4cb17-f284-41f0-9828-7bac42cb152b",
-  "details": [
+  "order": [
    {
     "item": "ice",
     "quantity": 10,
@@ -677,8 +704,9 @@
  {
   "id": 28,
   "vendor": "fred's party supplies",
+  "date": "09/06/2017",
   "customerId": "657ce9f7-8e21-466d-bc2f-51a8a85c344c",
-  "details": [
+  "order": [
    {
     "item": "candy",
     "quantity": 5,
@@ -702,8 +730,9 @@
  {
   "id": 29,
   "vendor": "partyco",
+  "date": "10/01/2017",
   "customerId": "7b4cfdd5-67e3-415f-b24e-d1fae5befd2e",
-  "details": [
+  "order": [
    {
     "item": "candy",
     "quantity": 17,
@@ -727,8 +756,9 @@
  {
   "id": 30,
   "vendor": "partyco",
+  "date": "05/21/2017",
   "customerId": "50dafc81-117d-4c45-b589-3476e3bad694",
-  "details": [
+  "order": [
    {
     "item": "clown",
     "quantity": 13,
@@ -752,8 +782,9 @@
  {
   "id": 31,
   "vendor": "fred's party supplies",
+  "date": "03/09/2017",
   "customerId": "7f29ad94-2c4f-49d0-a0a9-a1819e36dfbf",
-  "details": [
+  "order": [
    {
     "item": "hat",
     "quantity": 6,
@@ -789,8 +820,9 @@
  {
   "id": 32,
   "vendor": "acme",
+  "date": "12/01/2017",
   "customerId": "e8aab977-eb6f-440e-b0ff-571c7c6d2b81",
-  "details": [
+  "order": [
    {
     "item": "punch",
     "quantity": 18,
@@ -820,8 +852,9 @@
  {
   "id": 33,
   "vendor": "partyco",
+  "date": "11/25/2017",
   "customerId": "d32189ee-0e0e-4a97-87f1-7f3eb7361aec",
-  "details": [
+  "order": [
    {
     "item": "clown",
     "quantity": 14,
@@ -851,8 +884,9 @@
  {
   "id": 34,
   "vendor": "fred's party supplies",
+  "date": "01/06/2017",
   "customerId": "95967881-fef3-4cb1-a9c5-c8bfe9daeeba",
-  "details": [
+  "order": [
    {
     "item": "punch",
     "quantity": 3,
@@ -882,8 +916,9 @@
  {
   "id": 35,
   "vendor": "fred's party supplies",
+  "date": "11/03/2017",
   "customerId": "4f1a77d5-8cd0-4f52-aee6-b7010d1527ac",
-  "details": [
+  "order": [
    {
     "item": "cake",
     "quantity": 14,
@@ -913,8 +948,9 @@
  {
   "id": 36,
   "vendor": "fred's party supplies",
+  "date": "05/30/2017",
   "customerId": "ca405f53-e88b-4634-98e5-6b6c9513ba84",
-  "details": [
+  "order": [
    {
     "item": "bouncy house",
     "quantity": 2,
@@ -926,8 +962,9 @@
  {
   "id": 37,
   "vendor": "partyco",
+  "date": "07/16/2017",
   "customerId": "850b6b3c-ccb0-4214-a2ca-a2cc828c36e3",
-  "details": [
+  "order": [
    {
     "item": "candy",
     "quantity": 17,
@@ -939,8 +976,9 @@
  {
   "id": 38,
   "vendor": "partyco",
+  "date": "02/24/2017",
   "customerId": "d2a7be89-c106-4d94-9122-53f1f1d93650",
-  "details": [
+  "order": [
    {
     "item": "ice",
     "quantity": 13,
@@ -964,8 +1002,9 @@
  {
   "id": 39,
   "vendor": "fred's party supplies",
+  "date": "08/28/2017",
   "customerId": "9d4bc7d4-1ed3-487c-8562-9ccec08bb0d7",
-  "details": [
+  "order": [
    {
     "item": "bouncy house",
     "quantity": 19,
@@ -989,8 +1028,9 @@
  {
   "id": 40,
   "vendor": "partyco",
+  "date": "09/23/2017",
   "customerId": "762f32f8-c7dc-49ec-9077-05b8d2b378c5",
-  "details": [
+  "order": [
    {
     "item": "cake",
     "quantity": 19,
@@ -1008,8 +1048,9 @@
  {
   "id": 41,
   "vendor": "acme",
+  "date": "07/04/2017",
   "customerId": "142860c5-5417-4810-ae57-bbd61e70d888",
-  "details": [
+  "order": [
    {
     "item": "cake",
     "quantity": 1,
@@ -1027,8 +1068,9 @@
  {
   "id": 42,
   "vendor": "partyco",
+  "date": "06/02/2017",
   "customerId": "f6c498fc-f633-40f6-93fe-bf11814d4385",
-  "details": [
+  "order": [
    {
     "item": "cake",
     "quantity": 7,
@@ -1052,8 +1094,9 @@
  {
   "id": 43,
   "vendor": "fred's party supplies",
+  "date": "06/28/2017",
   "customerId": "03c0b2b7-1266-40e2-b1c6-dad2957f4340",
-  "details": [
+  "order": [
    {
     "item": "candy",
     "quantity": 13,
@@ -1071,8 +1114,9 @@
  {
   "id": 44,
   "vendor": "fred's party supplies",
+  "date": "02/23/2017",
   "customerId": "a812e8b5-26ad-4987-8692-be26d9bd542c",
-  "details": [
+  "order": [
    {
     "item": "clown",
     "quantity": 7,
@@ -1102,8 +1146,9 @@
  {
   "id": 45,
   "vendor": "partyco",
+  "date": "01/13/2017",
   "customerId": "f502342e-5266-43cb-87d7-5312f0bdfdbc",
-  "details": [
+  "order": [
    {
     "item": "candy",
     "quantity": 10,
@@ -1127,8 +1172,9 @@
  {
   "id": 46,
   "vendor": "partyco",
+  "date": "07/27/2017",
   "customerId": "0368e4db-3acf-41eb-bd0a-6c0c2c0eb89c",
-  "details": [
+  "order": [
    {
     "item": "ice",
     "quantity": 10,
@@ -1152,8 +1198,9 @@
  {
   "id": 47,
   "vendor": "partyco",
+  "date": "11/25/2017",
   "customerId": "19f15bca-84f2-4a8f-9f63-7c1062403351",
-  "details": [
+  "order": [
    {
     "item": "clown",
     "quantity": 18,
@@ -1177,8 +1224,9 @@
  {
   "id": 48,
   "vendor": "fred's party supplies",
+  "date": "09/02/2017",
   "customerId": "e8d73f48-8bab-44f9-bfec-8446f7ddabdd",
-  "details": [
+  "order": [
    {
     "item": "bouncy house",
     "quantity": 2,
@@ -1190,8 +1238,9 @@
  {
   "id": 49,
   "vendor": "partyco",
+  "date": "06/12/2017",
   "customerId": "96c64f84-a99b-4af5-afa1-fc88342a26f6",
-  "details": [
+  "order": [
    {
     "item": "bouncy house",
     "quantity": 4,
@@ -1209,8 +1258,9 @@
  {
   "id": 50,
   "vendor": "fred's party supplies",
+  "date": "03/03/2017",
   "customerId": "1fdb2989-44e5-4693-af9c-6140965578eb",
-  "details": [
+  "order": [
    {
     "item": "hat",
     "quantity": 17,
